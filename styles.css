@@ -4,7 +4,7 @@ body{
   padding:0;
   /* Leave the margin and padding to 0 */
   box-sizing: border-box;
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Abril Fatface', arial, sans-serif;
 }
 
 
@@ -17,6 +17,7 @@ If the logo is in the navigation bar, you will find more logo styles lower down 
     width:200px;
     display: block;
     margin-bottom: 20px;
+    font-family:'Abril Fatface', serif;
 }
 
 
@@ -41,6 +42,7 @@ h1{
   letter-spacing: 3.5px;
   font-size: 2em;
   text-align: center;
+  font-family: Amiri; 
 }
 
 h2{
@@ -52,7 +54,7 @@ h3{
 }
 
 .hero-homepage img{
-    height: 200px;
+    height: 660px;
     width: 100%;
     object-fit: cover;
     /* https://www.w3schools.com/cssref/css3_pr_object-fit.php */
@@ -166,9 +168,9 @@ nav #logo a{
 }
 /* Navigation bar styles */
 .mainNav {
-  background: #00411d;
+  background: #772F1A;
   /* Change bar color */
-  color:#ffffff;
+  color: white;
   /* Text color - For hamburger and company name*/
   height: 55px;
   /* How tall the nav bar is -
