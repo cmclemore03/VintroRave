@@ -22,7 +22,7 @@ If the logo is in the navigation bar, you will find more logo styles lower down 
 
 
 }
-
+/* beginning of hero images*/
 .two-column{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,9 +33,7 @@ If the logo is in the navigation bar, you will find more logo styles lower down 
   content:""
   clear: both;
 }
-p{
-  line-height: 1.4;
-}
+/* End of her images*/
 
 .wrapper{
   width:90%;
@@ -305,6 +303,7 @@ nav a{
   }
 
   /* Larger image for larger screens */
+  /*
   .image-on-left{
       width: 100%;
       margin: 50px auto;
@@ -312,7 +311,7 @@ nav a{
   }
   .image-on-left img{
     float: left;
-    /* Larger image for larger screens */
+    /* Larger image for larger screens
     height: 220px;
     width: 220px;
     border-radius: 50%;
@@ -330,6 +329,7 @@ nav a{
     border-radius: 50%;
     margin-left: 40px;
   }
+  */
   /* END Image on one side and text on the other side */
 
 
